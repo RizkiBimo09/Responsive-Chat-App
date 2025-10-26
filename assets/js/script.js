@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const loadingIndicator = document.querySelector('.loading-indicator');
 
 
-    const API_URL = '../../data/chat_room_endpoint_extended.json';
+    const API_URL = '/data/chat_room_endpoint_extended.json';
 
 
     const CURRENT_USER_ID = 'user1';
@@ -203,3 +203,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial load of messages
     renderAllMessages();
 });
+
