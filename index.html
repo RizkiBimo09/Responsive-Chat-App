@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Chat App</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="chat-info">
+                <i class="material-icons back-button">arrow_back</i>
+                <div class="chat-avatar-group">
+                    <img src="assets/images/photo_profile.webp" alt="Avatar" class="chat-avatar">
+                </div>
+                <h1 class="chat-title">Group Chat</h1>
+            </div>
+            <div class="header-actions">
+                <i class="material-icons">search</i>
+                <i class="material-icons">more_vert</i>
+            </div>
+        </header>
+
+        <main class="chat-main" id="chat-messages">
+            <div class="loading-indicator">Loading messages...</div>
+        </main>
+
+        <footer class="chat-footer">
+            <button class="icon-button"><i class="material-icons">add_circle_outline</i></button>
+            <input type="text" class="message-input" placeholder="Type a message...">
+            <button class="icon-button send-button"><i class="material-icons">send</i></button>
+            <button class="icon-button attachment-button"><i class="material-icons">attach_file</i></button>
+            <button class="icon-button emoji-button"><i class="material-icons">sentiment_satisfied_alt</i></button>
+        </footer>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
